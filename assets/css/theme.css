@@ -1,0 +1,128 @@
+        #box{
+            width:  800px;
+            height: 600px;
+            background-color: #000;
+            border: 10px solid #000;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        #startgame{
+            width: 819px;
+            height: 0;
+            background-color: #000;
+            position: absolute;
+            top: 227px;
+            display: block;
+            color: #fff;
+            font-size: 50px;
+            text-align: center;
+            line-height: 5;
+        }
+        #ball{
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            background-color: #fff;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+    
+        #start{
+            color: #fff;
+            background-color: #000;
+            line-height: 2;
+            margin-top: 30px;
+            display: block;
+            margin-left: 363px;
+            font-size: 25px;
+            width: 108px;
+        }
+        #restart{
+            color: red;
+            background-color: #000;
+            line-height: 2;
+            margin-top: 30px;
+            display: block;
+            margin-left: 363px;
+            font-size: 25px;
+            width: 108px;
+            border: 1px solid red;
+        }
+        #gameover{
+            width: 819px;
+            height: 620px;
+            background-color: #000;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            color: red;
+            font-size: 50px;
+            text-align: center;
+            line-height: 5;
+            display: none;
+        }
+        
+        #next{
+            color: green;
+            background-color: #000;
+            line-height: 2;
+            margin-top: 30px;
+            display: block;
+            margin-left: 339px;
+            font-size: 25px;
+            width: 135px;
+            border: 1px solid green;
+        }
+        #win{
+            width: 819px;
+            height: 620px;
+            background-color: #000;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            color: green;
+            font-size: 50px;
+            text-align: center;
+            line-height: 5;
+            display: none;
+        }
+        #container1{
+            width: 800px;
+            height: 61px;
+        }
+        
+        #container2{
+            width: 800px;
+            height: 61px;
+        }
+        #container3{
+            width: 800px;
+            height: 61px;
+        }
+
+        #container4{
+            width: 800px;
+            height: 61px;
+        }
+
+        #container5{
+            width: 800px;
+            height: 61px;
+        }
+        #header1{
+            float: left;
+            margin-top: 205px;
+            margin-left: 43px;
+            font-size: 47px;
+            color: #107;
+        }
+        #header2{
+            float: right;
+            margin-top: 205px;
+            margin-right: 45px;
+            font-size: 47px;
+            color: #107;
+        }

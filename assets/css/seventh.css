@@ -1,0 +1,56 @@
+#wood{
+            width: 90px;
+            height: 20px;
+            background-color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            border-radius: 20px;
+        }
+
+
+.bricks{
+            width: 80px;
+            height: 40px;
+            top: 0px;
+            left: 0px;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+        }
+.bricks2{
+            width: 80px;
+            height: 40px;
+            top: 61px;
+            left: 0px;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+        }
+
+
+
+.bricks3{
+            width: 80px;
+            height: 40px;
+            top: 122px;
+            left: 0px;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+        }
+
+
+.bricks4{
+            width: 80px;
+            height: 40px;
+            top: 183px;
+            left: 0px;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 5px;
+            position: absolute;
+        }
