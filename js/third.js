@@ -12,7 +12,7 @@
                 x : 5,
                 y : 100
             };
-            for(var x = 0; x<num;) {
+            for(var x = 0; x<num; x++) {
         brickmaker(row);
                 row.x+=100
             }
@@ -32,7 +32,7 @@
                 x2 : 5,
                 y : 100
             };
-            for(var xx = 0; xx<num2;) {
+            for(var xx = 0; xx<num2; xx++) {
         brickmaker2(row2);
                 row2.x2+=100;
             }
@@ -51,7 +51,7 @@
         x3 : 400,
                 y : 100
             };
-            for(var xxx = 0; xxx<num3;) {
+            for (var xxx = 0; xxx < num3; xxx++) {
         brickmaker3(row3);
                 row3.x3+=100;
             }
