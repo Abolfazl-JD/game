@@ -1,14 +1,14 @@
-        #box{
-            width:  800px;
-            height: 600px;
+        #box {
+            width: 800px;
+            height: 580px;
             background-color: #000;
             border: 10px solid #000;
-            margin-top: 20px;
             margin-left: auto;
             margin-right: auto;
             position: relative;
         }
-        #startgame{
+        
+        #startgame {
             width: 819px;
             height: 0;
             background-color: #000;
@@ -20,7 +20,8 @@
             text-align: center;
             line-height: 5;
         }
-        #ball{
+        
+        #ball {
             width: 30px;
             height: 30px;
             border-radius: 50px;
@@ -29,8 +30,8 @@
             bottom: 20px;
             left: 20px;
         }
-    
-        #start{
+        
+        #start {
             color: #fff;
             background-color: #000;
             line-height: 2;
@@ -40,7 +41,8 @@
             font-size: 25px;
             width: 108px;
         }
-        #restart{
+        
+        #restart {
             color: red;
             background-color: #000;
             line-height: 2;
@@ -51,7 +53,8 @@
             width: 108px;
             border: 1px solid red;
         }
-        #gameover{
+        
+        #gameover {
             width: 819px;
             height: 620px;
             background-color: #000;
@@ -65,7 +68,7 @@
             display: none;
         }
         
-        #next{
+        #next {
             color: green;
             background-color: #000;
             line-height: 2;
@@ -76,7 +79,8 @@
             width: 135px;
             border: 1px solid green;
         }
-        #win{
+        
+        #win {
             width: 819px;
             height: 620px;
             background-color: #000;
@@ -89,37 +93,41 @@
             line-height: 5;
             display: none;
         }
-        #container1{
+        
+        #container1 {
             width: 800px;
             height: 61px;
         }
         
-        #container2{
+        #container2 {
             width: 800px;
             height: 61px;
         }
-        #container3{
+        
+        #container3 {
             width: 800px;
             height: 61px;
         }
-
-        #container4{
+        
+        #container4 {
             width: 800px;
             height: 61px;
         }
-
-        #container5{
+        
+        #container5 {
             width: 800px;
             height: 61px;
         }
-        #header1{
+        
+        #header1 {
             float: left;
             margin-top: 205px;
             margin-left: 43px;
             font-size: 47px;
             color: #107;
         }
-        #header2{
+        
+        #header2 {
             float: right;
             margin-top: 205px;
             margin-right: 45px;

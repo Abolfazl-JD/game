@@ -1,4 +1,3 @@
-
 var y = 20;
 var x = 20;
 var dy = 1;
@@ -141,11 +140,12 @@ function call(a, b) {
 var stopp = true;
 
 function stop() {
-    if (event.keyCode == '13') {
-        setInterval('move();', 11);
+    var key = event.keyCode || event.charCode
+    if (key == '13') {
+        setInterval('move();', 7);
         document.getElementById('startgame').style.display = 'none';
     }
-    if (event.keyCode == '39') {
+    if (key == '39') {
         if (wright > 675) {
             return;
         }
@@ -153,7 +153,7 @@ function stop() {
         document.getElementById('wood').style.left = wright + "px";
 
     }
-    if (event.keyCode == '37') {
+    if (key == '37') {
         if (wright < 10) {
             return;
         }
@@ -162,8 +162,8 @@ function stop() {
 
     }
 }
-$(document).ready(function () {
-    $('#restart').click(function () {
+$(document).ready(function() {
+    $('#restart').click(function() {
         location.reload(true);
     })
 });
